@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PatientType</class>
+ <widget class="QDialog" name="PatientType">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1064</width>
+    <height>705</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_Inpatient">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>140</y>
+     <width>211</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Inpatient</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Outpatient">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>140</y>
+     <width>211</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Outpatient</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_InHomeVisit">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>360</y>
+     <width>211</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>In Home Visit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Emergency">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>360</y>
+     <width>211</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Emergency</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
